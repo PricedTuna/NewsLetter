@@ -1,0 +1,96 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+span {
+   display: block;
+}
+
+.card-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+}
+
+.list {
+   list-style: none;
+}
+
+.form-label {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+   font-size: 13px;
+   color: rgba(0, 0, 0, 0.8);
+}
+
+#invalidEmailLabel {
+   color: hsl(4, 100%, 67%);
+}
+
+.hide {
+   display: none;
+}
+
+.invalidEmail {
+   border: 1px solid hsl(4, 100%, 67%);
+   background-color: rgba(255, 97, 86, 0.3);
+}
+
+#btnSubmit {
+   background-color: hsl(234, 29%, 20%);
+}
+
+#btnSubmit:hover {
+   background-color: hsl(4, 100%, 67%);
+}
+
+#btnDimiss {
+   background-color: hsl(234, 29%, 20%);
+}
+#btnDimiss:hover {
+   background-color: hsl(4, 100%, 67%);
+}
+
+#cardContainerDimiss {
+   max-width: 375px
+}
+
+#imageContainer {
+   height: fit-content;
+}
+
+.card-body {
+   padding: 0;
+}
+
+#cardContainer {
+   max-width: 100vh;
+}
+
+@media (max-width: 767px) {
+   body {
+     height: auto;
+   }
+
+   .card{
+      border-radius: 0;
+   }
+
+   #cardContainerDimiss {
+      max-width: none;
+      height: 100vh;
+   }
+
+   #containerDimiss {
+      height: 100%;
+   }
+
+   #cardImage {
+      height: 25%;
+   }
+ }
+ 
